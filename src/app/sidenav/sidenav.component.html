@@ -1,0 +1,15 @@
+<mat-nav-list class="white-colored">
+    <h2>LOGO</h2>
+    <mat-list-item>
+        <button mat-icon-button class="close-button">
+            <mat-icon class="white-colored icon-styled">settings</mat-icon>
+        </button>
+      <span class="white-colored">Configurations</span>
+    </mat-list-item>
+    <mat-list-item>
+      <span class="white-colored spaced">Users</span>
+    </mat-list-item>
+    <mat-list-item *ngIf="checkIfAuthenticated()">
+        <span class="white-colored spaced" (click)="logout()">Logout</span>
+    </mat-list-item>
+  </mat-nav-list>

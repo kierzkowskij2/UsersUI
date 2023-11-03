@@ -1,0 +1,31 @@
+.main-container {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .dialog-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .dialog-content {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .cancel-button {
+    background-color: #dddddd;
+    color: #333;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: none;
+  }
+  
+  .delete-button {
+    background-color: #ff4136;
+    color: white;
+    font-size: 16px;
+    border: none;
+  }

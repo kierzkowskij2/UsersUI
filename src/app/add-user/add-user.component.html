@@ -1,0 +1,43 @@
+<div class="main-container">
+    <div class="dialog-header">
+        <h2 mat-dialog-title class="dialog-title">Add User</h2>
+        <button mat-icon-button class="close-button" (click)="onCancel()">
+          <mat-icon>close</mat-icon>
+        </button>
+      </div>
+    <mat-dialog-content class="mat-typography dialog-content">
+      <form [formGroup]="form" class="user-form">
+        <div class="form-group">
+          <div class="name-inputs">
+            <div class="name-input">
+              <label for="firstName">Name</label>
+              <input type="text" id="firstName" formControlName="firstName" class="form-control">
+            </div>
+            <div class="name-input">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" formControlName="lastName" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" formControlName="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" formControlName="username" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" formControlName="password" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="role">Role</label>
+            <input type="text" id="role" formControlName="role" class="form-control">
+        </div>
+        <div class="button-group">
+          <button mat-button class="save-button" [disabled]="!form.valid || !form.dirty" (click)="onSave()">Add</button>
+        </div>
+      </form>
+    </mat-dialog-content>
+  </div>

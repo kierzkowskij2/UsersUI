@@ -1,0 +1,10 @@
+<div class="main-container">
+    <h2 mat-dialog-title class="dialog-title">Delete User</h2>
+    <mat-dialog-content class="mat-typography dialog-content">
+      Do you really want to delete that user?
+    </mat-dialog-content>
+    <mat-dialog-actions fxLayoutAlign="end">
+      <button class="btn btn-secondary cancel-button" (click)="cancel()" mat-dialog-close>No</button>
+      <button class="btn btn-danger delete-button" (click)="deleteUser()">Yes</button>
+    </mat-dialog-actions>
+  </div>

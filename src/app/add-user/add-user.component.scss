@@ -1,0 +1,62 @@
+.main-container {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dialog-title {
+    font-size: 24px;
+  }
+  
+  .close-button {
+    padding: 0;
+    min-width: auto;
+    color: #333;
+  }
+  
+  .dialog-content {
+    font-size: 16px;
+  }
+  
+  .user-form {
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end
+  }
+  
+  .save-button {
+    background-color: #007BFF;
+    color: white;
+  }
+
+  .name-inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .name-input {
+    flex-grow: 1;
+    margin-right: 10px; 
+  }
